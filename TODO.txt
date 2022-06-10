@@ -1,0 +1,2 @@
+Seearch bar(filtrer par titre et categorie par default ), demander a lutilisateur son choix de filtre 
+

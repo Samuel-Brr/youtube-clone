@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand"><h1>YOU<em>LIFT</em> 💪</h1></a>
+              <div class="navbarRight">
+
+                  <fieldset style="margin-right: 10px;">
+                      <legend>Select a search filter</legend>
+
+                      <div>
+                        <input type="radio" id="category" name="filter" value="category" checked>
+                        <label for="category">Category</label>
+                      
+                        <input type="radio" id="title" name="filter" value="title">
+                        <label for="title">Title</label>
+                      </div>
+                  
+                  </fieldset> 
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" id="myInput" onkeyup="myFunction()">
+                  </form>
+
+              </div>
+            </div>
+          </nav>
+
+          <nav class="navbar bg-light" style="border-top: 1px solid rgb(168, 168, 168);">
+            <form class="container-fluid justify-content-start">
+              <button id="deadlift-btn" class="btn btn-sm btn-outline-secondary" type="button">Deadlift</button>
+              <button id="bench-btn" class="btn btn-sm btn-outline-secondary" type="button">Bench</button>
+              <button id="squat-btn" class="btn btn-sm btn-outline-secondary" type="button">Squat</button>
+              <button id="all-btn" class="btn btn-sm btn-outline-secondary" type="button">All</button>
+            </form>
+          </nav>
+
+    </header>
+    <main style="display: flex ;">
+        <div class="card" style="width: 18rem;">
+            <img src="./imgs/voiture 1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
+

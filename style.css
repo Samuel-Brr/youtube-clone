@@ -1,0 +1,24 @@
+main{
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    transition: .2s;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+.displayNone{
+    display: none;
+}
+
+.navbarRight{
+    display: flex;
+}
